@@ -18,4 +18,4 @@ model = tf.keras.models.Sequential()
 model.add(tf.keras.layers.Flatten(input_shape=(28, 28)))
 # the flatten layer turns the grid into one line of pixels so instead of 
 # 28,28 its 784 units 
-djdjd
+#testing push..also intellisense does not work
