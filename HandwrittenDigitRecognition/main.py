@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 #dataset from tensorflow
-#mnist = tf.keras.datasets.mnist
+mnist = tf.keras.datasets.mnist
 
 #usually you split your data, 80% training 20% testing
 #x is the picture, y is the classification or digit
@@ -26,7 +26,7 @@ import tensorflow as tf
 
 #model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-#model.fit(x_train, y_train, epochs=3)
+#model.fit(x_train, y_train, epochs=12)
 
 #model.save('handwritten.model')
 
@@ -48,5 +48,5 @@ while os.path.isfile(f"digits/digit{image_number}.png"):
 
 #loss, accuracy = model.evaluate(x_test,y_test)
 
-#print(loss)
-#print(accuracy)
+print(loss)
+print(accuracy)
